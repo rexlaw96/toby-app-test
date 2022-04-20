@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+
+<suite name="Test Suite" verbose="1" thread-count="1" parallel="tests" configfailurepolicy="continue">
+        <listeners>
+            <listener class-name="com.HelloToby.listeners.TestListener"/>
+        </listeners>
+
+    <test name="aos">
+        <classes>
+            <class name="com.HelloToby.Consumer.TestRunner"/>
+        </classes>
+    </test>
+
+<!--     <test name="NetMaster Report">-->
+<!--     <classes>-->
+<!--     <class name="com.HelloToby.reporting.ReportWithConfigs"/>-->
+<!--     </classes>-->
+<!--     </test>-->
+</suite>
