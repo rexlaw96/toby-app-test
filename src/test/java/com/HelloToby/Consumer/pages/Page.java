@@ -295,54 +295,6 @@ public class Page extends BasePage implements PageConstant {
     @AndroidFindBy(xpath = "/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.view.ViewGroup/android.view.ViewGroup/android.view.ViewGroup/android.view.ViewGroup[1]/android.widget.FrameLayout/android.view.ViewGroup/android.view.ViewGroup/android.view.ViewGroup[2]/android.view.ViewGroup/android.view.ViewGroup[2]/android.view.View/android.view.View[1]/android.widget.ImageView")
     protected WebElement homeButton;
 
-    @AndroidFindBy(id = "com.hellotoby.consumer.android.staging:id/back_button")
-    protected WebElement backButtonOnBeautyLandingPage;
-
-    @AndroidFindBy(id = "com.hellotoby.consumer.android.staging:id/search_btn")
-    protected WebElement searchBarOnStoreListingPage;
-
-    @AndroidFindBy(id = "com.hellotoby.consumer.android.staging:id/question-HCHOO-PKG-1-16")
-    protected WebElement question1_16;
-
-    @AndroidFindBy(id = "com.hellotoby.consumer.android.staging:id/HCHOO-PKG-1-16-answer-1")
-    protected WebElement answer1_16_1;
-
-    @AndroidFindBy(id = "com.hellotoby.consumer.android.staging:id/HCHOO-PKG-1-16-answer-4")
-    protected WebElement answer1_16_4;
-
-    @AndroidFindBy(id = "com.hellotoby.consumer.android.staging:id/question-HCHOO-PKG-1-3")
-    protected WebElement question1_3;
-
-    @AndroidFindBy(id = "com.hellotoby.consumer.android.staging:id/HCHOO-PKG-1-3-answer-decrement")
-    protected WebElement decrementButton;
-
-    @AndroidFindBy(id = "com.hellotoby.consumer.android.staging:id/HCHOO-PKG-1-3_answer_increment")
-    protected WebElement incrementButton;
-
-    @AndroidFindBy(id = "com.hellotoby.consumer.android.staging:id/question-HCHOO-PKG-1-4")
-    protected WebElement question1_4;
-
-    @AndroidFindBy(id = "com.hellotoby.consumer.android.staging:id/HCHOO-PKG-1-4-overlay-select-date")
-    protected WebElement selectDateButton;
-
-    @AndroidFindBy(xpath = "//*[contains(@text , '30')]")
-    protected WebElement date_30;
-
-    @AndroidFindBy(id = "com.hellotoby.consumer.android.staging:id/timelist-option-7")
-    protected WebElement timeSlot;
-
-    @AndroidFindBy(id = "com.hellotoby.consumer.android.staging:id/question-DB-HK-district")
-    protected WebElement districtSelect;
-
-    @AndroidFindBy(id = "com.hellotoby.consumer.android.staging:id/dropdown_DB_HK-district-answer-parent-0-btn")
-    protected WebElement districtAnswer;
-
-    @AndroidFindBy(id = "com.hellotoby.consumer.android.staging:id/dropdown-DB-HK-district-answer-parent-0-option-KL")
-    protected WebElement klButton;
-
-    @AndroidFindBy(id = "com.hellotoby.consumer.android.staging:id/dropdown_DB_HK_district-answer-child-0-btn")
-    protected WebElement childButton;
-
     @AndroidFindBy(id = "com.hellotoby.consumer.android.staging:id/question-GEN-CONTACT-ADDRESS_ADDRESS")
     protected WebElement addressQuestion;
 
@@ -496,7 +448,119 @@ public class Page extends BasePage implements PageConstant {
     @AndroidFindBy(xpath = "/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.view.ViewGroup[2]/android.view.ViewGroup/android.view.ViewGroup/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup/android.view.ViewGroup[2]/android.view.ViewGroup/android.view.ViewGroup/android.view.ViewGroup/android.view.ViewGroup/android.view.ViewGroup[7]/android.widget.ScrollView/android.view.ViewGroup/android.view.ViewGroup[1]/android.view.ViewGroup/android.view.ViewGroup[1]/android.view.ViewGroup[2]/android.view.ViewGroup")
     protected WebElement salonStoreBookmarkButton;
 
+    @AndroidFindBy(id = "com.hellotoby.consumer.android.staging:id/db_form_nextBtn")
+    protected WebElement dbFormNextButton;
 
+    @AndroidFindBy(id = "com.hellotoby.consumer.android.staging:id/HCHOO-PKG-1-2_answer_0")
+    protected WebElement questionOneAnswerHCHOO;
+
+    @AndroidFindBy(id = "com.hellotoby.consumer.android.staging:id/HCHOO-PKG-1-16_answer_0")
+    protected WebElement questionTwoAnswerHCHOO;
+
+    @AndroidFindBy(id = "com.hellotoby.consumer.android.staging:id/HCHOO-PKG-1-3_answer_increment")
+    protected WebElement questionaThreeAnswerHCHOO;
+
+    @AndroidFindBy(id = "com.hellotoby.consumer.android.staging:id/timelist_option_0")
+    protected WebElement questionFourAnswerHCHOO;
+
+    @AndroidFindBy(id = "com.hellotoby.consumer.android.staging:id/GEN-CONTACT-ADDRESS_answer_0")
+    protected WebElement questionFiveAnswerHCHOO;
+
+    @AndroidFindBy(id = "com.hellotoby.consumer.android.staging:id/HCHOO-PKG-1-17_answer_3")
+    protected WebElement questionSixAnswerHCHOO;
+
+    @AndroidFindBy(id = "com.hellotoby.consumer.android.staging:id/Cleaner3_answer_1")
+    protected WebElement questionSevenAnswerHCHOO;
+
+    @AndroidFindBy(id = "com.hellotoby.consumer.android.staging:id/HOCD-PKG-1_answer_0")
+    protected WebElement questionOneAnswerHOCD;
+
+    @AndroidFindBy(id = "com.hellotoby.consumer.android.staging:id/HOCD-PKG-2V2_answer_0")
+    protected WebElement questionTwoAnswerHOCD;
+
+    @AndroidFindBy(id = "com.hellotoby.consumer.android.staging:id/GEN-PET_answer_0")
+    protected WebElement questionThreeAnswerHOCD;
+
+    @AndroidFindBy(id = "com.hellotoby.consumer.android.staging:id/HCHOO-PKG-1-3_answer_increment")
+    protected WebElement questionFourAnswerHOCD;
+
+    @AndroidFindBy(id = "com.hellotoby.consumer.android.staging:id/timelist_option_0")
+    protected WebElement questionFiveAnswerHOCD;
+
+    @AndroidFindBy(id = "com.hellotoby.consumer.android.staging:id/GEN-CONTACT-ADDRESS_answer_0")
+    protected WebElement questionSixAnswerHOCD;
+
+    @AndroidFindBy(id = "com.hellotoby.consumer.android.staging:id/HOCD-PKG-3_answer_3")
+    protected WebElement questionSevenAnswerHOCD;
+
+    @AndroidFindBy(id = "com.hellotoby.consumer.android.staging:id/Cleaner_answer_0")
+    protected WebElement questionEightAnswerHOCD;
+
+    @AndroidFindBy(id = "com.hellotoby.consumer.android.staging:id/HCLA-PKG-1_answer_0")
+    protected WebElement questionOneAnswerHCLA;
+
+    @AndroidFindBy(id = "com.hellotoby.consumer.android.staging:id/HCLA-PKG-5_answer_increment")
+    protected WebElement questionTwoAnswerHCLA;
+
+    @AndroidFindBy(id = "com.hellotoby.consumer.android.staging:id/timelist_option_0")
+    protected WebElement questionThreeAnswerHCLA;
+
+    @AndroidFindBy(id = "com.hellotoby.consumer.android.staging:id/HCLA-PKG-3_answer_0")
+    protected WebElement questionFourAnswerHCLA;
+
+    @AndroidFindBy(id = "com.hellotoby.consumer.android.staging:id/HCLA-PKG-9_answer_0")
+    protected WebElement questionFiveAnswerHCLA;
+
+    @AndroidFindBy(id = "com.hellotoby.consumer.android.staging:id/SMIN-PKG-2_answer_0")
+    protected WebElement questionOneAnswerSMIN;
+
+    @AndroidFindBy(id = "com.hellotoby.consumer.android.staging:id/SMIN-PK-5_answer_0")
+    protected WebElement questionTwoAnswerSMIN;
+    
+    @AndroidFindBy(id = "com.hellotoby.consumer.android.staging:id/SMIN-PK-3_answer_0")
+    protected WebElement questionThreeAnswerSMIN;
+
+    @AndroidFindBy(id = "com.hellotoby.consumer.android.staging:id/timelist_option_0")
+    protected WebElement questionFourAnswerSMIN;
+
+    @AndroidFindBy(id = "com.hellotoby.consumer.android.staging:id/GEN-CONTACT-ADDRESS_answer_0")
+    protected WebElement questionFiveAnswerSMIN;
+
+    @AndroidFindBy(id = "com.hellotoby.consumer.android.staging:id/SMIN-8_answer_0")
+    protected WebElement questionSixAnswerSMIN;
+
+    @AndroidFindBy(id = "com.hellotoby.consumer.android.staging:id/SMIN-9_answer_0")
+    protected WebElement questionSevenAnswerSMIN;
+
+    @AndroidFindBy(id = "com.hellotoby.consumer.android.staging:id/WSPR-PKG-1_answer_0")
+    protected WebElement questionOneAnswerWSPR;
+
+    @AndroidFindBy(id = "com.hellotoby.consumer.android.staging:id/SMIN-PK-3_answer_0")
+    protected WebElement questionTwoAnswerWSPR;
+
+    @AndroidFindBy(id = "com.hellotoby.consumer.android.staging:id/WSPR-PKG-2_answer_0")
+    protected WebElement questionThreeAnswerWSPR;
+
+    @AndroidFindBy(id = "com.hellotoby.consumer.android.staging:id/SMIN-8_answer_0")
+    protected WebElement questionFourAnswerWSPR;
+
+    @AndroidFindBy(id = "com.hellotoby.consumer.android.staging:id/timelist_option_0")
+    protected WebElement questionFiveAnswerWSPR;
+
+    @AndroidFindBy(id = "com.hellotoby.consumer.android.staging:id/SMIN-9_answer_0")
+    protected WebElement questionSixAnswerWSPR;
+
+    @AndroidFindBy(id = "com.hellotoby.consumer.android.staging:id/GEN-CONTACT-ADDRESS_answer_0")
+    protected WebElement questionSevenAnswerWSPR;
+
+    @AndroidFindBy(id = "com.hellotoby.consumer.android.staging:id/HCAI-PKG-3_answer_0")
+    protected WebElement questionOneAnswerHCAI;
+
+
+
+
+
+ 
 
 
 
@@ -625,7 +689,7 @@ public class Page extends BasePage implements PageConstant {
 
     public void randomIndex() {
         String[] packID = {Android.HCHOOPKGNEW, Android.HOCDPKGNEW, Android.HCDEPKGNEW, Android.HCUNPKGNEW, Android.HCCLPKGNEW, Android.HCFOPKGNEW, Android.HCHPCPKGNEW, Android.HCLAPKGNEW
-                , Android.HCMIPKGNEW, Android.HCMOPKGNEW, Android.HCRUPKGNEW, Android.HQAIPKGNEW, Android.SMINPKGNEW};
+                , Android.HCMIPKGNEW, Android.HCMOPKGNEW, Android.HCRUPKGNEW, Android.HQAIPKGNEW, Android.SMINPKGNEW, Android.WSPRPKGNEW};
         for (int i = 0; i < packID.length; i++) {
             pack.put(i, packID[i]);
         }
@@ -633,25 +697,99 @@ public class Page extends BasePage implements PageConstant {
         randomIndex.put(randomValue , packID);
     }
 
-    public void randomSelectPackage() {
+    public java.lang.String randomSelectPackage() {
         randomIndex();
         randomIndex.get(randomValue);
-
+        return null;
     }
 
     public void clickPackage() {
+        randomSelectPackage();
             for (int i = 0; i <= 1; i++) {
                 scrollElement(By.xpath(pack.get(randomValue)), EScrollDirection.down, 4000, true);
             }
             driver.findElement(By.xpath(pack.get(randomValue))).click();
             wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath(Android.ctaHomeServiceOnboardingPage)));
             ctaButtonOnHomeServiceOnboarding.click();
-
         }
+
+
+    public void getPackageRandomValue() {
+         String packageName = this.getPackageID();
+        if (packageName == "HCHOO") {
+            //Question_1
+            questionOneAnswerHCHOO.click();
+            dbFormNextButton.click();
+            //Question_2
+            questionTwoAnswerHCHOO.click();
+            dbFormNextButton.click();
+            //Question_3
+            questionaThreeAnswerHCHOO.click();
+            dbFormNextButton.click();
+            //Question_4
+            questionFourAnswerHCHOO.click();
+            dbFormNextButton.click();
+            //Question_5
+            questionFiveAnswerHCHOO.click();
+            dbFormNextButton.click();
+            //Question_6
+            questionSixAnswerHCHOO.click();
+            dbFormNextButton.click();
+            //Question_7
+            questionSevenAnswerHCHOO.click();
+            dbFormNextButton.click();
+        }
+
+        if (packageName == "HOCD") {
+            //Question_1
+            questionOneAnswerHOCD.click();
+            dbFormNextButton.click();
+            //Question_2
+            questionTwoAnswerHOCD.click();
+            dbFormNextButton.click();
+            //Question_3
+            questionThreeAnswerHOCD.click();
+            dbFormNextButton.click();
+            //Question_4
+            questionFourAnswerHOCD.click();
+            dbFormNextButton.click();
+            //Question_5
+            questionFiveAnswerHOCD.click();
+            dbFormNextButton.click();
+            //Question_6
+            questionSixAnswerHOCD.click();
+            dbFormNextButton.click();
+            questionSevenAnswerHOCD.click();
+            dbFormNextButton.click();
+            questionEightAnswerHOCD.click();
+            dbFormNextButton.click();
+        }
+
+        if (packageName == "HCLA") {
+            //Question_1
+            questionOneAnswerHCLA.click();
+            dbFormNextButton.click();
+            //Question_2
+            questionTwoAnswerHCLA.click();
+            dbFormNextButton.click();
+            //Question_3
+            questionThreeAnswerHCLA.click();
+            dbFormNextButton.click();
+            //Question_4
+            questionFourAnswerHCLA.click();
+            dbFormNextButton.click();
+            //Question_5
+            questionFiveAnswerHCLA.click();
+            dbFormNextButton.click();
+        if (packageName == "SMIN") {
+            //Question_1
+        }
+        }
+    }
 
     public java.lang.String getPackageID() {
         randomSelectPackage();
-        String[] catID = {"HCHOO", "HOCD", "HCDE", "HCUN", "HCCL", "HCFO", "HCHPC", "HCLA", "HCMI", "HCMO", "HCRU", "HQAI", "SMIN"};
+        String[] catID = {"HCHOO", "HOCD", "HCDE", "HCUN", "HCCL", "HCFO", "HCHPC", "HCLA", "HCMI", "HCMO", "HCRU", "HQAI", "SMIN", "WSPR"};
         for (int i = 0; i < catID.length; i++) {
             map.put(i, catID[i]);
         }
@@ -790,36 +928,6 @@ public class Page extends BasePage implements PageConstant {
         }
         return null;
     }
-
-//    private JSONObject getAddressAnswer(JSONArray getRespondQuestions) {
-//        for (Object apiResult : getRespondQuestions) {
-//            Map<String, Object> apiQuestions = (Map<String, Object>) apiResult;
-//            JSONArray apiValue = (JSONArray) apiQuestions.get("possibleValues");
-//            String questionNumber = (String) apiQuestions.get("questionNumber");
-//            JSONObject answerValueIndex = apiValue.getJSONObject(0);
-//            Object answerValue = answerValueIndex.get("value");
-//            System.out.println(answerValue);
-//            String valueItem = null;
-//            if (apiValue.get(0) != null) {
-//                JSONObject questionsValue = (JSONObject) apiValue.get(0);
-//                valueItem = (String) questionsValue.get("value");
-//            }
-//
-//
-//            return null;
-//        }
-//        return null;
-//    }
-//
-//    private JSONObject getDateTimeAnwer() {
-//
-//        apiRespond.sample();
-//
-//        // Refer to enum answer
-//        return dateTimeAnswer;
-//    }
-
-    /// ...
 
     private void updateAnswerToServer(JSONArray answers, JSONArray answerByQuestionType , JSONArray getRespondQuestions , JSONArray genNumberAnswer) throws InterruptedException {
         for (Object apiResult : getRespondQuestions) {

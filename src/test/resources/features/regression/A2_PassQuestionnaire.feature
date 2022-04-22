@@ -1,8 +1,6 @@
-Feature: Pass Questionnaire
+Feature: Random select package
 
-  Scenario: Pass Questionnaire
-    Given I go to Questionnaire
-    Then I shall direct to Questionnaire
-    And  I shall see CTA Button dimmed by default
-    When I select answer
-    Then I shall see CTA Button enable
+  Scenario: Random select package
+    Given I am on direct booking landing page
+    When I random select package
+    Then I shall direct to Home Cleaning Onboarding Page

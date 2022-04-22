@@ -104,6 +104,7 @@ public interface PageConstant {
         String HCCLPKGNEW = "//*[contains(@text , '裝修後清潔')]";
         String HCMIPKGNEW = "//*[contains(@text , '入伙前清潔')]";
         String HCFOPKGNEW = "//*[contains(@text , '除甲醛')]";
+        String WSPRPKGNEW = "//*[contains(@text , '上門孕婦按摩')]";
         String salonStoreBookmarkButton = "/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.view.ViewGroup[2]/android.view.ViewGroup/android.view.ViewGroup/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup/android.view.ViewGroup[2]/android.view.ViewGroup/android.view.ViewGroup/android.view.ViewGroup/android.view.ViewGroup/android.view.ViewGroup[7]/android.widget.ScrollView/android.view.ViewGroup/android.view.ViewGroup[1]/android.view.ViewGroup/android.view.ViewGroup[1]/android.view.ViewGroup[2]/android.view.ViewGroup";
 
     }
